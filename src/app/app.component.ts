@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { MediaChange, MediaObserver} from '@angular/flex-layout';
+import {Subscription} from 'rxjs';
+//import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dentalleap';
+  title = 'Dentalleap';
+  /*constructor(private titleService:Title) {
+  }
+ 
+  ngOnInit() {
+    this.titleService.setTitle(this.title);
+  }*/
 }
+ 
